@@ -54,3 +54,44 @@ button {
 button:hover {
     background-color: #4cae4c;
 }
+
+.menu-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 30px;
+}
+
+.menu-item h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.menu-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.menu-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #5cb85c;
+}
+
+.confirmation-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
